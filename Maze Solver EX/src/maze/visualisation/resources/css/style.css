@@ -1,0 +1,40 @@
+.button {
+    -fx-background-color: #525252;
+    -fx-background-radius:5;
+    -fx-text-fill: #d8d8d8;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.75),1,0,1,1);
+}
+
+.button:pressed{
+    -fx-background-color: #878787;
+    -fx-text-fill: #1d1d1d;
+}
+
+.label {
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: bold;
+}
+
+.root {
+    -fx-font-family: "Helvetica";
+}
+
+.combo-box {
+    -fx-background-color: #878787;
+    -fx-mark-color: #ffffff;
+    -fx-text-fill: #ffffff;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.combo-box .list-view .list-cell {
+    -fx-background-color: #525252;
+    -fx-text-fill: #d8d8d8;
+}
+
+.combo-box-base .list-view .list-cell:focused {
+    -fx-background-color: #d8d8d8;
+    -fx-text-fill: #1d1d1d;
+}

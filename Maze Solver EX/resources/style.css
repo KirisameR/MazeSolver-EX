@@ -1,0 +1,22 @@
+.button {
+    -fx-background-color: #626262;
+    -fx-background-radius:3;
+    -fx-text-fill: #d8d8d8;
+    -fx-effect: innershadow(three-pass-box, rgba(120,120,120,255),0.2,0,0,0);
+    -fx-font-size: 12;
+    -fx-font-smoothing-type: gray;
+}
+
+.button:pressed{
+    -fx-background-color: #979797;
+    -fx-text-fill: #2d2d2d;
+}
+
+.label {
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: bold;
+}
+
+.root {
+    -fx-font-family: "Helvetica";
+}
